@@ -1,8 +1,8 @@
 import random
 
-answer = random(1,10)
+answer = random.randint(1,10)
 
-while true:
+while True:
     print("What number?", end ="")
     number = int(input())
 
@@ -11,6 +11,6 @@ while true:
         break
     elif answer > number:
         print("Bigger")
-    else
+    else:
         print("Smaller")
 
